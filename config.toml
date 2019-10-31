@@ -1,0 +1,14 @@
+[project_configuration]
+project_name = 'language_model'
+
+[model_params]
+network_type = "LSTM"
+hidden_size = 100
+seed = 102
+
+[training_params]
+num_epochs = 100
+
+[optim_params]
+optimizer = "Adam"
+lr = 1e-3
